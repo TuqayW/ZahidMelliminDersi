@@ -40,6 +40,9 @@ body{
     margin-bottom: 15px;
     cursor: pointer;
 }
+.quiz-card ul li input{
+    cursor: pointer;
+}
 .quiz-card button{
     margin-top: 20px;
     width: 100%;
@@ -55,4 +58,11 @@ body{
 .quiz-card button:hover{
     background: #40dfaf;
     color: #fff;
+}
+.mode-control{
+    color: #545454;
+    letter-spacing: .9px;
+    font-weight: 400;
+    margin-left: 5px;
+    cursor: pointer;
 }
