@@ -8,3 +8,23 @@
     outline: none;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+.quiz-card{
+    width: 412px;
+    background: #fff;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quiz-card h1{
+    font-weight: 500;
+    font-size: 22px;
+}
